@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.line-input {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+}
+
+button {
+    border: 0px;
+    padding: 10px;
+    background-color: blueviolet;
+    outline: 0;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.9s;
+}
+
+button:hover {
+    background-color: rgb(79, 30, 124);
+
+}
+#cancelar:hover {
+    background-color: red;
+    border: 1px solid gold;
+}
+
+.content {
+    margin-top: 15px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(214, 214, 214);
+
+}
+
+table td {
+    padding: 1px 5px;
+    text-align: left;
+}
+
+table td img {
+    width: 22px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.esconder {
+    visibility: hidden;
+}
+.exibir {
+    visibility: visible;
+    
+}
+
+.alterar {
+    background-color: seagreen;
+}
+
+/* controla os avisos de campos não preenchidos*/
+.vazio {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: red;
+    
+}
